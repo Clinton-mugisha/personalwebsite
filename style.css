@@ -332,3 +332,12 @@ div img {
         opacity: 1;
     }
 }
+.w {
+  opacity: 0; /* Start with 0 opacity */
+  transition: opacity 1s ease; /* Transition the opacity property over 1 second with ease-in-out timing */
+}
+
+/* Add a class to trigger the animation when the page is loaded */
+.animate {
+  opacity: 1; /* Set opacity to 1 to make the element visible */
+}
